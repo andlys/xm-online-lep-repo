@@ -1,0 +1,342 @@
+---
+types:
+    - key: RESOURCE.XM-TENANT
+      name: { en: "Tenant", ru: "Тенант" }
+      isApp: true
+      isAbstract: false
+      icon: web
+      states:
+          - key: NEW
+            name: { en: "New", ru: "Новый" }
+            icon: fiber_new
+            color: '#FFEB3B'
+            next:
+                - stateKey: ACTIVE
+                  name: { en: "Activate", ru: "Активировать" }
+          - key: ERROR
+            name: { en: "Error", ru: "Ошибка" }
+            icon: fiber_new
+            color: '#FF0000'
+            next:
+                - stateKey: ACTIVE
+                  name: { en: "Activate", ru: "Активировать" }
+          - key: ACTIVE
+            name: { en: "Active", ru: "Активный" }
+            icon: play_arrow
+            color: '#4CAF50'
+            next:
+                - stateKey: SUSPENDED
+                  name: { en: "Suspend", ru: "Приостановить" }
+          - key: SUSPENDED
+            name: { en: "Suspended", ru: "Приостановленный" }
+            icon: stop
+            color: '#795548'
+            next:
+                - stateKey: ACTIVE
+                  name: { en: "Activate", ru: "Активировать" }
+                - stateKey: DELETED
+                  name: { en: "Delete", ru: "Удалить" }
+          - key: DELETED
+            name: { en: "Deleted", ru: "Удаленный" }
+            icon: stop
+            color: '#1a1333'
+      functions:
+        - key: COPY-ATTACHMENTS
+          name: { "en": "Get all SMS senders for profile" }
+          actionName: { "en": "Get" }
+          saveFunctionContext: false
+      dataSpec: |
+                {
+                   "type": "object",
+                   "title": "Data",
+                   "properties": {
+                       "uaa": {
+                           "title": "Uaa",
+                           "type": "object",
+                           "properties": {
+                               "create" : {
+                                    "title": "Create",
+                                    "type": "object",
+                                    "properties": {
+                                        "success": {"title": "Success", "type": "boolean"},
+                                        "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                    }
+                               },
+                               "delete" : {
+                                    "title": "Delete",
+                                    "type": "object",
+                                    "properties": {
+                                         "success": {"title": "Success", "type": "boolean"},
+                                         "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                               },
+                               "manage" : {
+                                    "title": "Manage",
+                                    "type": "object",
+                                    "properties": {
+                                         "success": {"title": "Success", "type": "boolean"},
+                                         "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                               }
+                           }
+                        },
+                        "entity": {
+                           "title": "Entity",
+                           "type": "object",
+                           "properties": {
+                                 "create" : {
+                                     "title": "Create",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                 },
+                                  "delete" : {
+                                     "title": "Delete",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                  },
+                                  "manage" : {
+                                       "title": "Manage",
+                                       "type": "object",
+                                       "properties": {
+                                            "success": {"title": "Success", "type": "boolean"},
+                                            "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                        }
+                                  }
+                            }
+                        },
+                        "gate": {
+                           "title": "Gate",
+                           "type": "object",
+                           "properties": {
+                               "create" : {
+                                    "title": "Create",
+                                    "type": "object",
+                                    "properties": {
+                                        "success": {"title": "Success", "type": "boolean"},
+                                        "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                    }
+                               },
+                               "delete" : {
+                                    "title": "Delete",
+                                    "type": "object",
+                                    "properties": {
+                                         "success": {"title": "Success", "type": "boolean"},
+                                         "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                               },
+                               "manage" : {
+                                    "title": "Manage",
+                                    "type": "object",
+                                    "properties": {
+                                         "success": {"title": "Success", "type": "boolean"},
+                                         "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                               }
+                           }
+                        },
+                        "dashboard": {
+                           "title": "Dashboard",
+                           "type": "object",
+                           "properties": {
+                                 "create" : {
+                                     "title": "Create",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                 },
+                                  "delete" : {
+                                     "title": "Delete",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                  },
+                                  "manage" : {
+                                      "title": "Manage",
+                                      "type": "object",
+                                      "properties": {
+                                           "success": {"title": "Success", "type": "boolean"},
+                                           "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                       }
+                                 }
+                            }
+                        },
+                        "timeline": {
+                           "title": "Timeline",
+                           "type": "object",
+                           "properties": {
+                                 "create" : {
+                                     "title": "Create",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                 },
+                                  "delete" : {
+                                     "title": "Delete",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                  },
+                                  "manage" : {
+                                       "title": "Manage",
+                                       "type": "object",
+                                       "properties": {
+                                            "success": {"title": "Success", "type": "boolean"},
+                                            "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                        }
+                                  }
+                            }
+                        },
+                        "balance": {
+                           "title": "Balance",
+                           "type": "object",
+                           "properties": {
+                                 "create" : {
+                                     "title": "Create",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                 },
+                                  "delete" : {
+                                     "title": "Delete",
+                                     "type": "object",
+                                     "properties": {
+                                          "success": {"title": "Success", "type": "boolean"},
+                                          "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                     }
+                                  },
+                                  "manage" : {
+                                       "title": "Manage",
+                                       "type": "object",
+                                       "properties": {
+                                            "success": {"title": "Success", "type": "boolean"},
+                                            "errorMessage": {"title": "Error message", "type": ["string","null"]}
+                                        }
+                                  }
+                            }
+                        }
+                   }
+                }
+      dataForm: |
+                {
+                    "form": [
+                        {
+                            "type": "flex",
+                            "flex-flow": "row",
+                            "fxLayoutGap": "12px",
+                            "condition": {
+                                "functionBody": "return window.$.xmEntity"
+                            },
+                            "items": [
+                                "uaa",
+                                {"key":"uaa.create.success", "readonly":true, "title": "Created"},
+                                {"key":"uaa.delete.success", "readonly":true, "title": "Deleted"},
+                                {"key":"uaa.manage.success", "readonly":true, "title": "Managed"},
+                                {"key":"uaa.create.errorMessage", "readonly":true, "title": "Create Error", "type":"textarea"},
+                                {"key":"uaa.delete.errorMessage", "readonly":true, "title": "Delete Error", "type":"textarea"},
+                                {"key":"uaa.manage.errorMessage", "readonly":true, "title": "Manage Error", "type":"textarea"}
+                            ]
+                        },
+                        {
+                            "type": "flex",
+                            "flex-flow": "row",
+                            "fxLayoutGap": "12px",
+                            "condition": {
+                                "functionBody": "return window.$.xmEntity"
+                            },
+                            "items": [
+                                "entity",
+                                {"key":"entity.create.success", "readonly":true, "title": "Created"},
+                                {"key":"entity.delete.success", "readonly":true, "title": "Deleted"},
+                                {"key":"entity.manage.success", "readonly":true, "title": "Managed"},
+                                {"key":"entity.create.errorMessage", "readonly":true, "title": "Create Error", "type":"textarea"},
+                                {"key":"entity.delete.errorMessage", "readonly":true, "title": "Delete Error", "type":"textarea"},
+                                {"key":"entity.manage.errorMessage", "readonly":true, "title": "Manage Error", "type":"textarea"}
+                            ]
+                        },
+                        {
+                            "type": "flex",
+                            "flex-flow": "row",
+                            "fxLayoutGap": "12px",
+                            "condition": {
+                                "functionBody": "return window.$.xmEntity"
+                            },
+                            "items": [
+                                "gate",
+                                {"key":"gate.create.success", "readonly":true, "title": "Created"},
+                                {"key":"gate.delete.success", "readonly":true, "title": "Deleted"},
+                                {"key":"gate.manage.success", "readonly":true, "title": "Managed"},
+                                {"key":"gate.create.errorMessage", "readonly":true, "title": "Create Error", "type":"textarea"},
+                                {"key":"gate.delete.errorMessage", "readonly":true, "title": "Delete Error", "type":"textarea"},
+                                {"key":"gate.manage.errorMessage", "readonly":true, "title": "Manage Error", "type":"textarea"}
+                            ]
+                        },
+                        {
+                            "type": "flex",
+                            "flex-flow": "row",
+                            "fxLayoutGap": "12px",
+                            "condition": {
+                                "functionBody": "return window.$.xmEntity"
+                            },
+                            "items": [
+                                "dashboard",
+                                {"key":"dashboard.create.success", "readonly":true, "title": "Created"},
+                                {"key":"dashboard.delete.success", "readonly":true, "title": "Deleted"},
+                                {"key":"dashboard.manage.success", "readonly":true, "title": "Managed"},
+                                {"key":"dashboard.create.errorMessage", "readonly":true, "title": "Create Error", "type":"textarea"},
+                                {"key":"dashboard.delete.errorMessage", "readonly":true, "title": "Delete Error", "type":"textarea"},
+                                {"key":"dashboard.manage.errorMessage", "readonly":true, "title": "Manage Error", "type":"textarea"}
+                            ]
+                        },
+                        {
+                            "type": "flex",
+                            "flex-flow": "row",
+                            "fxLayoutGap": "12px",
+                            "condition": {
+                                "functionBody": "return window.$.xmEntity"
+                            },
+                            "items": [
+                                "timeline",
+                                {"key":"timeline.create.success", "readonly":true, "title": "Created"},
+                                {"key":"timeline.delete.success", "readonly":true, "title": "Deleted"},
+                                {"key":"timeline.manage.success", "readonly":true, "title": "Managed"},
+                                {"key":"timeline.create.errorMessage", "readonly":true, "title": "Create Error", "type":"textarea"},
+                                {"key":"timeline.delete.errorMessage", "readonly":true, "title": "Delete Error", "type":"textarea"},
+                                {"key":"timeline.manage.errorMessage", "readonly":true, "title": "Manage Error", "type":"textarea"}
+                            ]
+                        },
+                        {
+                            "type": "flex",
+                            "flex-flow": "row",
+                            "fxLayoutGap": "12px",
+                            "condition": {
+                                "functionBody": "return window.$.xmEntity"
+                            },
+                            "items": [
+                                "balance",
+                                {"key":"balance.create.success", "readonly":true, "title": "Created"},
+                                {"key":"balance.delete.success", "readonly":true, "title": "Deleted"},
+                                {"key":"balance.manage.success", "readonly":true, "title": "Managed"},
+                                {"key":"balance.create.errorMessage", "readonly":true, "title": "Create Error", "type":"textarea"},
+                                {"key":"balance.delete.errorMessage", "readonly":true, "title": "Delete Error", "type":"textarea"},
+                                {"key":"balance.manage.errorMessage", "readonly":true, "title": "Manage Error", "type":"textarea"}
+                            ]
+                        }
+                    ]
+
+                }
