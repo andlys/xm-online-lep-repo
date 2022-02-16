@@ -1,0 +1,13 @@
+---
+logoUrl: '../assets/img/logo-xm-online.png'
+name: XM^online
+theme: teal
+googleApiKey: 
+socialConfiguration:
+    linkedinEnabled: false
+    facebookEnabled: false
+    googleEnabled: false
+    twitterEnabled: false   
+langs:
+    - en
+    - ru

@@ -1,0 +1,30 @@
+{
+  "entity" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ],
+  "gate" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ],
+  "uaa" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ],
+  "timeline" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ],
+  "dashboard" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ],
+  "balance" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ],
+  "scheduler" : [ {
+    "name" : "xm",
+    "state" : "ACTIVE"
+  } ]
+}

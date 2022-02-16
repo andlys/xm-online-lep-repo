@@ -1,0 +1,6 @@
+---
+security:
+    accessTokenValiditySeconds:
+    refreshTokenValiditySeconds:
+    defaultUserRole: ROLE_VIEW
+    defaultClientSecret: internal

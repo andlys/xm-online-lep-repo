@@ -1,0 +1,1407 @@
+---
+balance:
+  ROLE_VIEW:
+  - privilegeKey: "BALANCE.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.PROFILE.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.TENANT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.TENANT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.TENANT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.TENANT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.TENANT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "BALANCE.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "METRIC.CREATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "METRIC.DELETE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "METRIC.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "METRIC.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "POCKET.CREATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "POCKET.DELETE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "POCKET.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "POCKET.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+config:
+  ROLE_VIEW:
+  - privilegeKey: "CONFIG.ADMIN.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.ADMIN.CREATE.LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.ADMIN.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.ADMIN.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.ADMIN.REFRESH"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.ADMIN.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.CLIENT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.CLIENT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.CLIENT.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.CLIENT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.PROFILE_INFO.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.TENANT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.TENANT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.TENANT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONFIG.TENANT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+dashboard:
+  ROLE_VIEW:
+  - privilegeKey: "DASHBOARD.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.TENANT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.TENANT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.TENANT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.TENANT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.TENANT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DASHBOARD.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DEFAULT_PROFILE.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DEFAULT_PROFILE.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DEFAULT_PROFILE.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DEFAULT_PROFILE.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "DEFAULT_PROFILE.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "PROFILE.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "PROFILE.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "PROFILE.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "PROFILE.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "PROFILE.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "PROFILE_INFO.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "WIDGET.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "WIDGET.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "WIDGET.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "WIDGET.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "WIDGET.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+entity:
+  ROLE_VIEW:
+  - privilegeKey: "ATTACHMENT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ATTACHMENT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ATTACHMENT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ATTACHMENT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ATTACHMENT.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ATTACHMENT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CALENDAR.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CALENDAR.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CALENDAR.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CALENDAR.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CALENDAR.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CALENDAR.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "COMMENT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "COMMENT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "COMMENT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "COMMENT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "COMMENT.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "COMMENT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONTENT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONTENT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONTENT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONTENT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONTENT.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CONTENT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.PROFILE.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.PROFILE.SELF.GET"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.PROFILE.SELF.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.PROFILE_INFO.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.TENANT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.TENANT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.TENANT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.TENANT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ENTITY.TENANT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "EVENT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "EVENT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "EVENT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "EVENT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "EVENT.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "EVENT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION.CALL"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION.MVC.CALL"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION_CONTEXT.CREATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION_CONTEXT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION_CONTEXT.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION_CONTEXT.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION_CONTEXT.SEARCH"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "FUNCTION_CONTEXT.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LINK.CREATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LINK.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LINK.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LINK.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LINK.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LINK.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LOCATION.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LOCATION.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LOCATION.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LOCATION.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LOCATION.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "LOCATION.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "RATING.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "RATING.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "RATING.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "RATING.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "RATING.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "RATING.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "STORAGE.OBJECT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TAG.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TAG.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TAG.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TAG.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TAG.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TAG.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "VOTE.CREATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "VOTE.DELETE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "VOTE.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "VOTE.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "VOTE.SEARCH"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "VOTE.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.ACTIVATE"
+    disabled: false
+    deleted: true
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.AVATAR.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.EXPORT.FILE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.FUNCTION.EXECUTE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.GET_PROFILE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.LINK.SOURCE.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.LINK.TARGET.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.LINK.TARGET.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.LINK.TARGET.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.LINK.TARGET.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.REGISTER"
+    disabled: true
+    deleted: true
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.SEARCH"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.SELF.AVATAR.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.STATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.STATE.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY_SPEC.GENERATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY_SPEC.GET"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY_SPEC.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "XMENTITY_SPEC.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+gate:
+  ROLE_VIEW:
+  - privilegeKey: "GATE.PROFILE.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "GATE.TENANT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "GATE.TENANT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "GATE.TENANT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "GATE.TENANT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "GATE.TENANT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROUTE.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+timeline:
+  ROLE_VIEW:
+  - privilegeKey: "TIMELINE.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.PROFILE.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.CREATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.DELETE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.PROPERTIES.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.PROPERTIES.VALIDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TIMELINE.TENANT.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+uaa:
+  ROLE_VIEW:
+  - privilegeKey: "ACCOUNT.ACTIVATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.CHECK_AUTH"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.LOGIN.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.PASSWORD.RESET"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.PASSWORD.RESET.CHECK"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.PASSWORD.RESET.FINISH"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.PASSWORD.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.REGISTER"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.RESET_ACTIVATION"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.TFA.AVAILABLE_OTP_CHANNEL_SPECS"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.TFA.DISABLE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.TFA.ENABLE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ACCOUNT.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "AUDIT.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "AUDIT.GET_LIST.ITEM"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CAPTCHA.GET"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CLIENT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CLIENT.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CLIENT.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CLIENT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "CLIENT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.MATRIX.GET"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.MATRIX.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "ROLE.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "SOCIAL.PROVIDERS.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "SOCIAL.SIGN_IN"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "SOCIAL.SIGN_UP"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TENANT.LOGIN.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TENANT.LOGIN.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "TENANT.LOGIN.VALIDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.PROFILE.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.DELETE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.GET_LIST"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.PROPERTIES.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.PROPERTIES.VALIDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "UAA.TENANT.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.CREATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.DELETE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.GET_LIST"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.GET_LIST.ITEM"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.GET_USER_BY_LOGIN"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.LOGIN.UPDATE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.METRIC.ONLINE"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.TFA.AVAILABLE_OTP_CHANNEL_SPECS"
+    disabled: true
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.TFA.DISABLE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.TFA.ENABLE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null
+  - privilegeKey: "USER.UPDATE"
+    disabled: false
+    deleted: false
+    envCondition: null
+    resourceCondition: null
+    reactionStrategy: null

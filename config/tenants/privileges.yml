@@ -1,0 +1,1031 @@
+---
+balance:
+- key: "BALANCE.CREATE"
+  description: {}
+  resources:
+  - "balance"
+- key: "BALANCE.DELETE"
+  description: {}
+  resources:
+  - "balance"
+  - "id"
+- key: "BALANCE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "BALANCE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "BALANCE.PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "BALANCE.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "BALANCE.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+- key: "BALANCE.TENANT.GET_LIST"
+  description: {}
+  resources: []
+- key: "BALANCE.TENANT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "BALANCE.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "state"
+  - "tenant"
+- key: "BALANCE.UPDATE"
+  description: {}
+  resources:
+  - "balance"
+  - "newBalance"
+  - "id"
+- key: "METRIC.CREATE"
+  description: {}
+  resources:
+  - "metric"
+- key: "METRIC.DELETE"
+  description: {}
+  resources:
+  - "metric"
+  - "id"
+- key: "METRIC.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "METRIC.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "METRIC.UPDATE"
+  description: {}
+  resources:
+  - "metric"
+  - "id"
+  - "newMetric"
+- key: "POCKET.CREATE"
+  description: {}
+  resources:
+  - "pocket"
+- key: "POCKET.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "pocket"
+- key: "POCKET.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "POCKET.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "POCKET.UPDATE"
+  description: {}
+  resources:
+  - "newPocket"
+  - "id"
+  - "pocket"
+config:
+- key: "CONFIG.ADMIN.CREATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+- key: "CONFIG.ADMIN.CREATE.LIST"
+  description: {}
+  resources:
+  - "files"
+  - "tenant"
+- key: "CONFIG.ADMIN.DELETE"
+  description: {}
+  resources:
+  - "request"
+- key: "CONFIG.ADMIN.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CONFIG.ADMIN.REFRESH"
+  description: {}
+  resources:
+  - "request"
+- key: "CONFIG.ADMIN.UPDATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+- key: "CONFIG.CLIENT.CREATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+- key: "CONFIG.CLIENT.DELETE"
+  description: {}
+  resources:
+  - "request"
+- key: "CONFIG.CLIENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CONFIG.CLIENT.UPDATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+- key: "CONFIG.PROFILE_INFO.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CONFIG.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "CONFIG.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+  - "serviceName"
+- key: "CONFIG.TENANT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+- key: "CONFIG.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "tenantKey"
+  - "serviceName"
+  - "tenantState"
+dashboard:
+- key: "DASHBOARD.CREATE"
+  description: {}
+  resources:
+  - "dashboard"
+- key: "DASHBOARD.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "dashboard"
+- key: "DASHBOARD.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "DASHBOARD.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "DASHBOARD.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "DASHBOARD.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+- key: "DASHBOARD.TENANT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "DASHBOARD.TENANT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "DASHBOARD.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "tenant"
+  - "status"
+- key: "DASHBOARD.UPDATE"
+  description: {}
+  resources:
+  - "newDashboard"
+  - "id"
+  - "dashboard"
+- key: "DEFAULT_PROFILE.CREATE"
+  description: {}
+  resources:
+  - "defaultProfile"
+- key: "DEFAULT_PROFILE.DELETE"
+  description: {}
+  resources:
+  - "defaultProfile"
+  - "id"
+- key: "DEFAULT_PROFILE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "DEFAULT_PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "DEFAULT_PROFILE.UPDATE"
+  description: {}
+  resources:
+  - "defaultProfile"
+  - "newDefaultProfile"
+  - "id"
+- key: "PROFILE.CREATE"
+  description: {}
+  resources:
+  - "profile"
+- key: "PROFILE.DELETE"
+  description: {}
+  resources:
+  - "profile"
+  - "id"
+- key: "PROFILE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "PROFILE.UPDATE"
+  description: {}
+  resources:
+  - "profile"
+  - "newProfile"
+  - "id"
+- key: "PROFILE_INFO.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "WIDGET.CREATE"
+  description: {}
+  resources:
+  - "widget"
+- key: "WIDGET.DELETE"
+  description: {}
+  resources:
+  - "widget"
+  - "id"
+- key: "WIDGET.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "WIDGET.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "WIDGET.UPDATE"
+  description: {}
+  resources:
+  - "widget"
+  - "newWidget"
+  - "id"
+entity:
+- key: "ATTACHMENT.CREATE"
+  description: {}
+  resources:
+  - "attachment"
+- key: "ATTACHMENT.DELETE"
+  description: {}
+  resources:
+  - "attachment"
+  - "id"
+- key: "ATTACHMENT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ATTACHMENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ATTACHMENT.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ATTACHMENT.UPDATE"
+  description: {}
+  resources:
+  - "attachment"
+  - "newAttachment"
+  - "id"
+- key: "CALENDAR.CREATE"
+  description: {}
+  resources:
+  - "calendar"
+- key: "CALENDAR.DELETE"
+  description: {}
+  resources:
+  - "calendar"
+  - "id"
+- key: "CALENDAR.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CALENDAR.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CALENDAR.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CALENDAR.UPDATE"
+  description: {}
+  resources:
+  - "calendar"
+  - "newCalendar"
+  - "id"
+- key: "COMMENT.CREATE"
+  description: {}
+  resources:
+  - "comment"
+- key: "COMMENT.DELETE"
+  description: {}
+  resources:
+  - "comment"
+  - "id"
+- key: "COMMENT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "COMMENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "COMMENT.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "COMMENT.UPDATE"
+  description: {}
+  resources:
+  - "newComment"
+  - "comment"
+  - "id"
+- key: "CONTENT.CREATE"
+  description: {}
+  resources:
+  - "content"
+- key: "CONTENT.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "content"
+- key: "CONTENT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CONTENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CONTENT.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CONTENT.UPDATE"
+  description: {}
+  resources:
+  - "newContent"
+  - "id"
+  - "content"
+- key: "ENTITY.PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ENTITY.PROFILE.SELF.GET"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ENTITY.PROFILE.SELF.UPDATE"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ENTITY.PROFILE_INFO.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ENTITY.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "ENTITY.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+- key: "ENTITY.TENANT.GET_LIST"
+  description: {}
+  resources: []
+- key: "ENTITY.TENANT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ENTITY.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "tenant"
+  - "status"
+- key: "EVENT.CREATE"
+  description: {}
+  resources:
+  - "event"
+- key: "EVENT.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "event"
+- key: "EVENT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "EVENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "EVENT.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "EVENT.UPDATE"
+  description: {}
+  resources:
+  - "newEvent"
+  - "id"
+  - "event"
+- key: "FUNCTION.CALL"
+  description: {}
+  resources: []
+- key: "FUNCTION.MVC.CALL"
+  description: {}
+  resources: []
+- key: "FUNCTION_CONTEXT.CREATE"
+  description: {}
+  resources:
+  - "functionContext"
+- key: "FUNCTION_CONTEXT.DELETE"
+  description: {}
+  resources:
+  - "functionContext"
+  - "id"
+- key: "FUNCTION_CONTEXT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "FUNCTION_CONTEXT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "FUNCTION_CONTEXT.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "FUNCTION_CONTEXT.UPDATE"
+  description: {}
+  resources:
+  - "functionContext"
+  - "id"
+  - "newFunctionContext"
+- key: "LINK.CREATE"
+  description: {}
+  resources:
+  - "link"
+- key: "LINK.DELETE"
+  description: {}
+  resources:
+  - "link"
+  - "id"
+- key: "LINK.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "LINK.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "LINK.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "LINK.UPDATE"
+  description: {}
+  resources:
+  - "link"
+  - "id"
+  - "newLink"
+- key: "LOCATION.CREATE"
+  description: {}
+  resources:
+  - "location"
+- key: "LOCATION.DELETE"
+  description: {}
+  resources:
+  - "location"
+  - "id"
+- key: "LOCATION.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "LOCATION.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "LOCATION.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "LOCATION.UPDATE"
+  description: {}
+  resources:
+  - "location"
+  - "id"
+  - "newLocation"
+- key: "RATING.CREATE"
+  description: {}
+  resources:
+  - "rating"
+- key: "RATING.DELETE"
+  description: {}
+  resources:
+  - "rating"
+  - "id"
+- key: "RATING.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "RATING.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "RATING.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "RATING.UPDATE"
+  description: {}
+  resources:
+  - "newRating"
+  - "rating"
+  - "id"
+- key: "STORAGE.OBJECT.CREATE"
+  description: {}
+  resources:
+  - "multipartFile"
+  - "size"
+- key: "TAG.CREATE"
+  description: {}
+  resources:
+  - "tag"
+- key: "TAG.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "tag"
+- key: "TAG.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TAG.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TAG.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TAG.UPDATE"
+  description: {}
+  resources:
+  - "newTag"
+  - "id"
+  - "tag"
+- key: "VOTE.CREATE"
+  description: {}
+  resources:
+  - "vote"
+- key: "VOTE.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "vote"
+- key: "VOTE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "VOTE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "VOTE.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "VOTE.UPDATE"
+  description: {}
+  resources:
+  - "newVote"
+  - "id"
+  - "vote"
+- key: "XMENTITY.AVATAR.UPDATE"
+  description: {}
+  resources:
+  - "idOrKey"
+  - "multipartFile"
+- key: "XMENTITY.CREATE"
+  description: {}
+  resources:
+  - "xmEntity"
+- key: "XMENTITY.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "xmEntity"
+- key: "XMENTITY.EXPORT.FILE"
+  description: {}
+  resources:
+  - "typeKey"
+  - "fileFormat"
+- key: "XMENTITY.FUNCTION.EXECUTE"
+  description: {}
+  resources:
+  - "idOrKey"
+  - "xmEntity.function"
+  - "context"
+  - "id"
+- key: "XMENTITY.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "XMENTITY.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "XMENTITY.GET_PROFILE"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "XMENTITY.LINK.SOURCE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+- key: "XMENTITY.LINK.TARGET.CREATE"
+  description: {}
+  resources:
+  - "idOrKey"
+  - "file"
+  - "link"
+- key: "XMENTITY.LINK.TARGET.DELETE"
+  description: {}
+  resources:
+  - "idOrKey"
+  - "xmEntity.link.target"
+  - "id"
+- key: "XMENTITY.LINK.TARGET.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+- key: "XMENTITY.LINK.TARGET.UPDATE"
+  description: {}
+  resources:
+  - "idOrKey"
+  - "file"
+  - "link"
+  - "xmEntity.link.target"
+  - "id"
+- key: "XMENTITY.SEARCH"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "XMENTITY.SELF.AVATAR.UPDATE"
+  description: {}
+  resources:
+  - "request"
+  - "fileName"
+- key: "XMENTITY.STATE"
+  description: {}
+  resources:
+  - "context"
+  - "id"
+  - "stateKey"
+  - "xmEntity"
+- key: "XMENTITY.STATE.UPDATE"
+  description: {}
+  resources:
+  - "xmEntity.state"
+  - "id"
+  - "xmEntity"
+- key: "XMENTITY.UPDATE"
+  description: {}
+  resources:
+  - "newXmEntity"
+  - "id"
+  - "xmEntity"
+- key: "XMENTITY_SPEC.GENERATE"
+  description: {}
+  resources:
+  - "rootTypeKey"
+- key: "XMENTITY_SPEC.GET"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+- key: "XMENTITY_SPEC.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "XMENTITY_SPEC.UPDATE"
+  description: {}
+  resources:
+  - "xmEntitySpec"
+gate:
+- key: "GATE.PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "GATE.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "GATE.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+- key: "GATE.TENANT.GET_LIST"
+  description: {}
+  resources: []
+- key: "GATE.TENANT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "GATE.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "state"
+  - "tenant"
+- key: "ROUTE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+timeline:
+- key: "TIMELINE.GET_LIST"
+  description: {}
+  resources:
+  - "idOrKey"
+  - "dateTo"
+  - "dateFrom"
+  - "operation"
+  - "userKey"
+- key: "TIMELINE.PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TIMELINE.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "TIMELINE.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+- key: "TIMELINE.TENANT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TIMELINE.TENANT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TIMELINE.TENANT.PROPERTIES.UPDATE"
+  description: {}
+  resources:
+  - "timelineYml"
+- key: "TIMELINE.TENANT.PROPERTIES.VALIDATE"
+  description: {}
+  resources: []
+- key: "TIMELINE.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "tenant"
+  - "status"
+uaa:
+- key: "ACCOUNT.ACTIVATE"
+  description: {}
+  resources: []
+- key: "ACCOUNT.CHECK_AUTH"
+  description: {}
+  resources:
+  - "request"
+- key: "ACCOUNT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ACCOUNT.LOGIN.UPDATE"
+  description: {}
+  resources:
+  - "newUser"
+  - "id"
+  - "user"
+- key: "ACCOUNT.PASSWORD.RESET"
+  description: {}
+  resources:
+  - "mail"
+- key: "ACCOUNT.PASSWORD.RESET.CHECK"
+  description: {}
+  resources: []
+- key: "ACCOUNT.PASSWORD.RESET.FINISH"
+  description: {}
+  resources:
+  - "keyAndPassword"
+- key: "ACCOUNT.PASSWORD.UPDATE"
+  description: {}
+  resources:
+  - "password"
+- key: "ACCOUNT.REGISTER"
+  description: {}
+  resources:
+  - "request"
+  - "user"
+- key: "ACCOUNT.RESET_ACTIVATION"
+  description: {}
+  resources:
+  - "login"
+- key: "ACCOUNT.TFA.AVAILABLE_OTP_CHANNEL_SPECS"
+  description: {}
+  resources: []
+- key: "ACCOUNT.TFA.DISABLE"
+  description: {}
+  resources: []
+- key: "ACCOUNT.TFA.ENABLE"
+  description: {}
+  resources: []
+- key: "ACCOUNT.UPDATE"
+  description: {}
+  resources:
+  - "user"
+- key: "AUDIT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "AUDIT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CAPTCHA.GET"
+  description: {}
+  resources:
+  - "request"
+- key: "CLIENT.CREATE"
+  description: {}
+  resources:
+  - "client"
+- key: "CLIENT.DELETE"
+  description: {}
+  resources:
+  - "client"
+  - "id"
+- key: "CLIENT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CLIENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "CLIENT.UPDATE"
+  description: {}
+  resources:
+  - "newClient"
+  - "client"
+  - "id"
+- key: "ROLE.CREATE"
+  description: {}
+  resources:
+  - "role"
+- key: "ROLE.DELETE"
+  description: {}
+  resources:
+  - "roleKey"
+- key: "ROLE.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+- key: "ROLE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ROLE.MATRIX.GET"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "ROLE.MATRIX.UPDATE"
+  description: {}
+  resources:
+  - "roleMatrix"
+- key: "ROLE.UPDATE"
+  description: {}
+  resources:
+  - "role"
+- key: "SOCIAL.PROVIDERS.GET_LIST"
+  description: {}
+  resources: []
+- key: "SOCIAL.SIGN_IN"
+  description: {}
+  resources: []
+- key: "SOCIAL.SIGN_UP"
+  description: {}
+  resources: []
+- key: "TENANT.LOGIN.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "TENANT.LOGIN.UPDATE"
+  description: {}
+  resources:
+  - "loginsYml"
+- key: "TENANT.LOGIN.VALIDATE"
+  description: {}
+  resources: []
+- key: "UAA.PROFILE.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "UAA.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+- key: "UAA.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+- key: "UAA.TENANT.GET_LIST"
+  description: {}
+  resources: []
+- key: "UAA.TENANT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "UAA.TENANT.PROPERTIES.UPDATE"
+  description: {}
+  resources:
+  - "uaaYml"
+- key: "UAA.TENANT.PROPERTIES.VALIDATE"
+  description: {}
+  resources: []
+- key: "UAA.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "tenant"
+  - "status"
+- key: "USER.CREATE"
+  description: {}
+  resources:
+  - "user"
+- key: "USER.DELETE"
+  description: {}
+  resources:
+  - "id"
+  - "user"
+- key: "USER.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "USER.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "USER.GET_USER_BY_LOGIN"
+  description: {}
+  resources:
+  - "returnObject"
+- key: "USER.LOGIN.UPDATE"
+  description: {}
+  resources:
+  - "newUser"
+  - "id"
+  - "user"
+- key: "USER.METRIC.ONLINE"
+  description: {}
+  resources: []
+- key: "USER.TFA.AVAILABLE_OTP_CHANNEL_SPECS"
+  description: {}
+  resources: []
+- key: "USER.TFA.DISABLE"
+  description: {}
+  resources:
+  - "id"
+  - "user"
+- key: "USER.TFA.ENABLE"
+  description: {}
+  resources:
+  - "id"
+  - "user"
+- key: "USER.UPDATE"
+  description: {}
+  resources:
+  - "newUser"
+  - "id"
+  - "user"
