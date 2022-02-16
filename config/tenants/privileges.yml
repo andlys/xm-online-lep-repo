@@ -1,0 +1,136 @@
+---
+config:
+- key: "CONFIG.ADMIN.CREATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+  customDescription: "Privilege to create configuration for admin"
+- key: "CONFIG.ADMIN.CREATE.LIST"
+  description: {}
+  resources:
+  - "files"
+  - "tenant"
+  customDescription: "Privilege to create list of configurations for admin"
+- key: "CONFIG.ADMIN.DELETE"
+  description: {}
+  resources:
+  - "request"
+  customDescription: "Privilege to delete configuration for admin"
+- key: "CONFIG.ADMIN.DELETE.LIST"
+  description: {}
+  resources:
+  - "request"
+  customDescription: "Privilege to delete list of configurations for admin"
+- key: "CONFIG.ADMIN.DELETE_IN_MEMORY"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+  customDescription: "Privilege to delete configuration in memory for admin"
+- key: "CONFIG.ADMIN.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "request"
+  - "returnObject"
+  customDescription: "Privilege to get configuration for admin"
+- key: "CONFIG.ADMIN.GET_VERSION"
+  description: {}
+  resources:
+  - "returnObject"
+  customDescription: "Privilege to get version for admin"
+- key: "CONFIG.ADMIN.RECLONE"
+  description: {}
+  resources:
+  - "request"
+  customDescription: "Privilege to reclone configuration"
+- key: "CONFIG.ADMIN.REFRESH"
+  description: {}
+  resources:
+  - "request"
+  customDescription: "Privilege to refresh configuration for admin"
+- key: "CONFIG.ADMIN.UPDATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+  customDescription: "Privilege to update configuration for admin"
+- key: "CONFIG.ADMIN.UPDATE_BY_ZIP"
+  description: {}
+  resources:
+  - "files"
+  - "tenant"
+  customDescription: "Privilege to create list of configurations for admin"
+- key: "CONFIG.ADMIN.UPDATE_IN_MEMORY"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+  customDescription: "Privilege to update configuration in memory for admin"
+- key: "CONFIG.ADMIN.UPDATE_IN_MEMORY.LIST"
+  description: {}
+  resources:
+  - "files"
+  - "tenant"
+  customDescription: "Privilege to update list of configurations in memory for admin"
+- key: "CONFIG.CLIENT.CREATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+  customDescription: "Privilege to create config for client"
+- key: "CONFIG.CLIENT.DELETE"
+  description: {}
+  resources:
+  - "request"
+  customDescription: "Privilege to delete config for client"
+- key: "CONFIG.CLIENT.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+  customDescription: "Privilege to get config for client"
+- key: "CONFIG.CLIENT.REFRESH"
+  description: {}
+  resources:
+  - "request"
+  customDescription: "Privilege to refresh config for client"
+- key: "CONFIG.CLIENT.UPDATE"
+  description: {}
+  resources:
+  - "request"
+  - "content"
+  customDescription: "Privilege to update config for client"
+- key: "CONFIG.CLIENT.WEBAPP.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+  customDescription: "Privilege to get private ui settings"
+- key: "CONFIG.PROFILE_INFO.GET_LIST.ITEM"
+  description: {}
+  resources:
+  - "returnObject"
+  customDescription: "Privilege to get config Spring active profiles"
+- key: "CONFIG.TENANT.CREATE"
+  description: {}
+  resources:
+  - "tenant"
+  customDescription: "Privilege to add a new config tenant"
+- key: "CONFIG.TENANT.DELETE"
+  description: {}
+  resources:
+  - "tenantKey"
+  - "serviceName"
+  customDescription: "Privilege to delete config tenant"
+- key: "CONFIG.TENANT.GET_LIST"
+  description: {}
+  resources:
+  - "returnObject"
+  - "log"
+  customDescription: "Privilege to get all config tenants"
+- key: "CONFIG.TENANT.UPDATE"
+  description: {}
+  resources:
+  - "tenantKey"
+  - "serviceName"
+  - "tenantState"
+  customDescription: "Privilege to update config tenant"
