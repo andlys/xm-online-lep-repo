@@ -1,0 +1,4 @@
+---
+entity-dynamic-privileges: []
+applications:
+- key: "APPLICATION.RESOURCE.XM-TENANT"
