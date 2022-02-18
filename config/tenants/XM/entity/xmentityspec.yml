@@ -45,6 +45,11 @@ types:
           name: { "en": "Get all SMS senders for profile" }
           actionName: { "en": "Get" }
           saveFunctionContext: false
+          functions:
+            - key: HELLO-WORLD
+              name: { "en": "Get all SMS senders for profile1234" }
+              actionName: { "en": "Get123" }
+              saveFunctionContext: false
       dataSpec: |
                 {
                    "type": "object",
