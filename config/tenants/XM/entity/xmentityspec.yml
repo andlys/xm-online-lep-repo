@@ -49,6 +49,18 @@ types:
           name: { "en": "Get all SMS senders for profile1234" }
           actionName: { "en": "Get123" }
           saveFunctionContext: false
+        - key: NATIVE-HTTP
+          name: { "en": "Get all SMS senders for profile12345" }
+          actionName: { "en": "Get1234" }
+          saveFunctionContext: false
+        - key: CREATE-RESET-ACCOUNT
+          name: { "en": "Get all SMS senders for profile12346" }
+          actionName: { "en": "Get12345" }
+          saveFunctionContext: false
+        - key: RESPONSE-HTTP
+          name: { "en": "Get all SMS senders for profile123467" }
+          actionName: { "en": "Get123457" }
+          saveFunctionContext: false
       dataSpec: |
                 {
                    "type": "object",
