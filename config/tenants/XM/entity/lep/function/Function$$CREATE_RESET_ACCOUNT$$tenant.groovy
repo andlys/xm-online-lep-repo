@@ -21,7 +21,7 @@ String authorization = authContext.getTokenType().get() + ' ' + authContext.getT
 RestTemplate restTemplate = lepContext.templates.rest
 
 
-class BusinessException {
+class BusinessException extends RuntimeException {
 
     String path
     String message
