@@ -13,4 +13,4 @@ def language = httpServletRequest?.getHeader('accept-language')
 // get query string
 def query = httpServletRequest?.getQueryString()
 // get query parameter that contains the letters [] (example for the characteristic[amount])
-def amount = query?.split('&').find{ it.startsWith('characteristic%5Bamount%5D') }?.split('=').last()
+def amount = query?.split('&').find{ it.startsWith('amount') }?.split('=').last()

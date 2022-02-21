@@ -20,6 +20,18 @@ XmAuthenticationContext authContext = lepContext.authContext
 String authorization = authContext.getTokenType().get() + ' ' + authContext.getTokenValue().get()
 RestTemplate restTemplate = lepContext.templates.rest
 
+
+class BusinessException {
+
+    String path
+    String message
+
+    BusinessException(String path, String message) {
+        this.path = path
+        this.message = message
+    }
+}
+
 def isAccountExists = {
     String url = uaaApiEndpoint + '/api/users/logins?login=' + email
     RequestEntity req = RequestEntity.get(URI.create(url)).header(HttpHeaders.AUTHORIZATION, authorization).build()
