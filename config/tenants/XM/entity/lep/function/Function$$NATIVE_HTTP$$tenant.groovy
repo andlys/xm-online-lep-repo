@@ -7,7 +7,7 @@ import org.springframework.web.context.request.RequestContextHolder
 // get HTTP request
 def httpServletRequest = RequestContextHolder.getRequestAttributes()?.getRequest()
 // get body as Map
-def body = new ObjectMapper().readValue(httpServletRequest.getContentAsByteArray(), Map.class)
+//def body = new ObjectMapper().readValue(httpServletRequest.getContentAsByteArray(), Map.class)
 // get header 'Accept-language'
 def language = httpServletRequest?.getHeader('accept-language')
 // get query string
