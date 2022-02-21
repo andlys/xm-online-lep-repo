@@ -2,6 +2,7 @@ package function
 
 
 import com.icthh.xm.commons.security.XmAuthenticationContext
+import com.icthh.xm.commons.exceptions.BusinessException
 import org.slf4j.LoggerFactory
 import org.springframework.http.HttpHeaders
 import org.springframework.http.RequestEntity
@@ -20,17 +21,6 @@ XmAuthenticationContext authContext = lepContext.authContext
 String authorization = authContext.getTokenType().get() + ' ' + authContext.getTokenValue().get()
 RestTemplate restTemplate = lepContext.templates.rest
 
-
-class BusinessException extends RuntimeException {
-
-    String path
-    String message
-
-    BusinessException(String path, String message) {
-        this.path = path
-        this.message = message
-    }
-}
 
 def isAccountExists = {
     String url = uaaApiEndpoint + '/api/users/logins?login=' + email
